@@ -1,4 +1,14 @@
 
+===============================
+          NOTE
+===============================
+Only one Static HTML file can be deployed with one repository in Github.Jun 18, 2020
+
+
+
+
+===============================
+
 Install " wp2stacit " plugin > wp2static > select 'zip format' && Destination URL = https://websiteurl > advanced option > crawl increment = 5 > save >
         click = start statuc site export > download zip
 
