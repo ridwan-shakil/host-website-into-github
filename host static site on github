@@ -1,0 +1,19 @@
+
+Install " wp2stacit " plugin > wp2static > select 'zip format' && Destination URL = https://websiteurl > advanced option > crawl increment = 5 > save >
+        click = start statuc site export > download zip
+
+
+
+Creat a git ripository
+
+git clone [url]
+
+git checkout --orphan gh-pages     ( creates a branch named "gh-pages" , that doesnot copy its main branches files )
+
+ pest the zip folder thet has been downloaded  > unzip the folder > 
+
+git add *
+
+git commit -m "commited website folders "
+
+git push origin gh-pages
